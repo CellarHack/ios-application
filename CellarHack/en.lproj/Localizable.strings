@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  CellarHack
+
+  Created by stant on 11/06/14.
+  Copyright (c) 2014 CCSAS. All rights reserved.
+*/
+
+"WINE_NAME" = "Château Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum - 1952";
+"WINE_DESCR" = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.";
+"PRICE" = "Price: 34$";
+
+"BUTTON_OK" = "Ok";
+"BUTTON_EDIT" = "Edit";
