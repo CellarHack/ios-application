@@ -13,7 +13,7 @@ import UIKit
 * View delegate protocol
 */
 
-protocol CHHomeViewDelegate {
+@class_protocol protocol CHHomeViewDelegate {
     
     func alertButtonPressed()
     
@@ -34,7 +34,7 @@ class CHHomeView : UIView {
     let alertButton = UIButton.buttonWithType(UIButtonType.Custom) as UIButton
     let shopButton = UIButton.buttonWithType(UIButtonType.Custom) as UIButton
     
-    var delegate:CHHomeViewDelegate?
+    weak var delegate:CHHomeViewDelegate?
     
     init() {
         super.init(frame: UIScreen.mainScreen().bounds)

@@ -13,7 +13,7 @@ import UIKit
 * View delegate protocol
 */
 
-protocol CHAddWineViewDelegate {
+@class_protocol protocol CHAddWineViewDelegate {
     
     func searchCameraPressed()
     
@@ -29,7 +29,8 @@ class CHAddWineView : UIView {
     let searchField = UITextField()
     let searchCamera = UIButton.buttonWithType(UIButtonType.Custom) as UIButton
     let searchList = UITableView()
-    var delegate: CHAddWineViewDelegate?
+    
+    weak var delegate: CHAddWineViewDelegate?
     
     init() {
         super.init(frame: UIScreen.mainScreen().bounds)

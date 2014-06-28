@@ -13,7 +13,7 @@ import UIKit
 * View delegate protocol
 */
 
-protocol CHAlertViewDelegate {
+@class_protocol protocol CHAlertViewDelegate {
     
 }
 
@@ -26,7 +26,7 @@ class CHAlertView: UIView {
     
     let alertList: UITableView = UITableView()
     
-    var delegate: CHAlertViewDelegate?
+    weak var delegate: CHAlertViewDelegate?
     
     init() {
         super.init(frame: CGRectZero)
@@ -79,10 +79,19 @@ class CHAlertViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        var error: NSError?
         let manager = AFHTTPRequestOperationManager()
         
-        manager.GET("http://192.168.11.40:8000/api/event/", parameters: nil, success: {(request: AFHTTPRequestOperation!, result: AnyObject!) -> Void in
-            NSLog("\(result)")
+        manager.GET("http://192.168.11.40:8000/api/event/", parameters: nil, success: {(request: AFHTTPRequestOperation!, result: AnyObject!) in
+            NSLog("\(result)\n\(object_getClassName(result))")
+            if let resultArray = result as? Array<Dictionary<String, AnyObject>> {
+                if resultArray.count > 0 {
+                    let address = resultArray[0]
+                    let event:AnyObject? = address["event"]
+                    let eventStr = "\(event)"
+                    NSLog(eventStr)
+                }
+            }
         }, failure: {(request: AFHTTPRequestOperation!, error: NSError!) -> Void in
             
         })

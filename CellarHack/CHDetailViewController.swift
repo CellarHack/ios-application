@@ -13,7 +13,7 @@ import UIKit
  * View delegate protocol
  */
 
-protocol CHDetailViewDelegate {
+@class_protocol protocol CHDetailViewDelegate {
     
     func buttonOkPressed()
     func buttonEditPressed()
@@ -36,7 +36,7 @@ class CHDetailView : UIView {
     let buttonEdit = UIButton()
     var buttonsConstraints: NSLayoutConstraint[] = []
     
-    var delegate: CHDetailViewDelegate?
+    weak var delegate: CHDetailViewDelegate?
     
     init() {
         

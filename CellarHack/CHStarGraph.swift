@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol CHStarGraphDataSource {
+@class_protocol protocol CHStarGraphDataSource {
     
     func valueForItemAtIndex(index:Int) -> Int
     func nameForItemAtIndex(index:Int) -> String
@@ -19,7 +19,7 @@ protocol CHStarGraphDataSource {
 
 class CHStarGraph: UIView {
     
-    var dataSource: CHStarGraphDataSource?
+    weak var dataSource: CHStarGraphDataSource?
     
     var labels = Array<UILabel>()
     
@@ -55,7 +55,8 @@ class CHStarGraph: UIView {
         
         func add_scale_line(index:Int, vector:(x:Double, y:Double)) {
             let (axeX, axeY) = (center.x + vector.x * Double(bounds.width) / 2, center.y + vector.y * Double(bounds.width) / 2)
-            CGPathMoveToPoint(scalePath, nil, CGFloat(center.x), CGFloat(center.y))
+            var affine = CGAffineTransformIdentity
+            CGPathMoveToPoint(scalePath, &affine, CGFloat(center.x), CGFloat(center.y))
             CGPathAddLineToPoint(scalePath, nil, CGFloat(axeX), CGFloat(axeY))
             
             let step = Double(bounds.width) / 20
@@ -94,7 +95,7 @@ class CHStarGraph: UIView {
         CGContextSetStrokeColorWithColor(context, UIColor.whiteColor().CGColor)
         CGContextAddPath(context, valuePath)
         CGContextDrawPath(context, kCGPathStroke)
-        
+
     }
     
     func addLabelAtPosition(pos: CGPoint, text: String) {

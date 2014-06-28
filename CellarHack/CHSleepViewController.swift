@@ -13,7 +13,7 @@ import UIKit
 * View delegate protocol
 */
 
-protocol CHSleepViewDelegate {
+@class_protocol protocol CHSleepViewDelegate {
     
     func viewPressed()
     
@@ -26,7 +26,7 @@ protocol CHSleepViewDelegate {
 
 class CHSleepView : UIView {
     
-    var delegate: CHSleepViewDelegate?
+    weak var delegate: CHSleepViewDelegate?
     
     init() {
         super.init(frame: UIScreen.mainScreen().bounds)
