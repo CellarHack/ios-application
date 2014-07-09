@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-HexColors.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JBChartView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>980008DCFC524D41B7D343A7</key>
+		<key>15B1FB6286FB46DCAAE7DA92</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FAC5FCD6708748689DBD699B</key>
+		<key>1909C2BF0C0849C7B3B3A69E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CA95BF46E1014F4BAF4C7B90</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA57009DA3E044A8B50826DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

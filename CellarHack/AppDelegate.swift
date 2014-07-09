@@ -11,18 +11,21 @@ import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-                            
+    
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
         
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         
-        application.statusBarHidden = true
-        
         let rootViewController = CHHomeViewController()
+        
+        UINavigationBar.appearance().titleTextAttributes = [UITextAttributeTextColor: UIColor.whiteColor(), UITextAttributeFont: UIFont(name: "Copperplate-Light", size: 35)]
+        UIBarButtonItem.appearance().setTitleTextAttributes([UITextAttributeTextColor: UIColor.whiteColor(), UITextAttributeFont: UIFont(name: "Copperplate-Light", size: 25)], forState: UIControlState.Normal)
+        
         let navigationController = UINavigationController(rootViewController: rootViewController)
-        navigationController.navigationBarHidden = true
+        navigationController.navigationBar.barTintColor = UIColor(hexString: "#2c3e50")
+        
         self.window!.rootViewController = navigationController
         
         self.window!.backgroundColor = UIColor.whiteColor()

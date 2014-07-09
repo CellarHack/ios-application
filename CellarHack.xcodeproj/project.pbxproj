@@ -8,24 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		20ED797E0FF347FCA964C2A5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F72F9E538744895AA99D75F /* libPods.a */; };
+		C74917F21963FAA4007F2124 /* default_bottle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C74917F01963FAA4007F2124 /* default_bottle.jpg */; };
+		C74917F31963FAA4007F2124 /* default_bottle@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C74917F11963FAA4007F2124 /* default_bottle@2x.jpg */; };
+		C74917F519641023007F2124 /* CHCellarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74917F419641023007F2124 /* CHCellarContentViewController.swift */; };
+		C749180119643A42007F2124 /* buy.png in Resources */ = {isa = PBXBuildFile; fileRef = C74917F619643A42007F2124 /* buy.png */; };
+		C749180219643A42007F2124 /* buy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C74917F719643A42007F2124 /* buy@2x.png */; };
+		C749180319643A42007F2124 /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = C74917F819643A42007F2124 /* door.png */; };
+		C749180419643A42007F2124 /* door@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C74917F919643A42007F2124 /* door@2x.png */; };
+		C749180519643A42007F2124 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = C74917FA19643A42007F2124 /* light.png */; };
+		C749180619643A42007F2124 /* light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C74917FB19643A42007F2124 /* light@2x.png */; };
+		C749180719643A42007F2124 /* temp.png in Resources */ = {isa = PBXBuildFile; fileRef = C74917FC19643A42007F2124 /* temp.png */; };
+		C749180819643A42007F2124 /* temp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C74917FD19643A42007F2124 /* temp@2x.png */; };
+		C749180919643A42007F2124 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = C74917FE19643A42007F2124 /* time.png */; };
+		C749180A19643A42007F2124 /* wine.png in Resources */ = {isa = PBXBuildFile; fileRef = C74917FF19643A42007F2124 /* wine.png */; };
+		C749180B19643A42007F2124 /* wine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C749180019643A42007F2124 /* wine@2x.png */; };
+		C749180D19643A6B007F2124 /* time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C749180C19643A6A007F2124 /* time@2x.png */; };
+		C749180F19644270007F2124 /* CCCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = C749180E19644270007F2124 /* CCCameraView.m */; };
+		C749181119644289007F2124 /* CHCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C749181019644289007F2124 /* CHCameraViewController.swift */; };
 		C76AB7C9195C8464000320B3 /* CHStarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76AB7C8195C8464000320B3 /* CHStarGraph.swift */; };
 		C770C6B2194EDE0200CC3E1A /* CHAddWineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770C6B1194EDE0200CC3E1A /* CHAddWineViewController.swift */; };
 		C770C6B4194F275900CC3E1A /* CHHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C770C6B3194F275900CC3E1A /* CHHomeViewController.swift */; };
 		C7761B6F1948C98B00FC5398 /* CHSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7761B6E1948C98B00FC5398 /* CHSleepViewController.swift */; };
 		C7761B771948E63000FC5398 /* sarrins.png in Resources */ = {isa = PBXBuildFile; fileRef = C7761B761948E63000FC5398 /* sarrins.png */; };
 		C77CCFF6195D68CC00C7DCFD /* CHAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77CCFF5195D68CC00C7DCFD /* CHAlertViewController.swift */; };
+		C7A51FF31960D0F6008154A8 /* icon_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A51FF11960D0F6008154A8 /* icon_cart.png */; };
+		C7A51FF41960D0F6008154A8 /* icon_cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A51FF21960D0F6008154A8 /* icon_cart@2x.png */; };
+		C7A51FFB1960D1C1008154A8 /* icon_alert.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A51FF91960D1C1008154A8 /* icon_alert.png */; };
+		C7A51FFC1960D1C1008154A8 /* icon_alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7A51FFA1960D1C1008154A8 /* icon_alert@2x.png */; };
+		C7A51FFF1961BC4A008154A8 /* CHColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A51FFE1961BC4A008154A8 /* CHColorButton.swift */; };
+		C7A5200119631315008154A8 /* CHConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A5200019631315008154A8 /* CHConstants.swift */; };
+		C7A5200319632F5E008154A8 /* CHMetricViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A5200219632F5E008154A8 /* CHMetricViewController.swift */; };
 		C7BACE1D1948BD8D0047FF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BACE1C1948BD8D0047FF8B /* AppDelegate.swift */; };
 		C7BACE201948BD8D0047FF8B /* CellarHack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7BACE1E1948BD8D0047FF8B /* CellarHack.xcdatamodeld */; };
 		C7BACE221948BD8D0047FF8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BACE211948BD8D0047FF8B /* Images.xcassets */; };
 		C7BACE2E1948BD8E0047FF8B /* CellarHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BACE2D1948BD8E0047FF8B /* CellarHackTests.swift */; };
 		C7BACE3A1948BE200047FF8B /* CHDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BACE391948BE200047FF8B /* CHDetailViewController.swift */; };
 		C7BACE3F1948C5870047FF8B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7BACE411948C5870047FF8B /* Localizable.strings */; };
-		C7BAF1D9194F318000B152FA /* icon_alert.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BAF1D7194F318000B152FA /* icon_alert.png */; };
-		C7BAF1DA194F318000B152FA /* icon_alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BAF1D8194F318000B152FA /* icon_alert@2x.png */; };
 		C7BAF1DD194F319600B152FA /* icon_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BAF1DB194F319600B152FA /* icon_camera.png */; };
 		C7BAF1DE194F319600B152FA /* icon_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BAF1DC194F319600B152FA /* icon_camera@2x.png */; };
-		C7BAF1E1194F319D00B152FA /* icon_cart.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BAF1DF194F319D00B152FA /* icon_cart.png */; };
-		C7BAF1E2194F319D00B152FA /* icon_cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7BAF1E0194F319D00B152FA /* icon_cart@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +61,25 @@
 /* Begin PBXFileReference section */
 		5F72F9E538744895AA99D75F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBD495483A84BFCB17B6C98 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		C74917F01963FAA4007F2124 /* default_bottle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default_bottle.jpg; sourceTree = "<group>"; };
+		C74917F11963FAA4007F2124 /* default_bottle@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "default_bottle@2x.jpg"; sourceTree = "<group>"; };
+		C74917F419641023007F2124 /* CHCellarContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCellarContentViewController.swift; sourceTree = "<group>"; };
+		C74917F619643A42007F2124 /* buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy.png; sourceTree = "<group>"; };
+		C74917F719643A42007F2124 /* buy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buy@2x.png"; sourceTree = "<group>"; };
+		C74917F819643A42007F2124 /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
+		C74917F919643A42007F2124 /* door@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "door@2x.png"; sourceTree = "<group>"; };
+		C74917FA19643A42007F2124 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		C74917FB19643A42007F2124 /* light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light@2x.png"; sourceTree = "<group>"; };
+		C74917FC19643A42007F2124 /* temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp.png; sourceTree = "<group>"; };
+		C74917FD19643A42007F2124 /* temp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "temp@2x.png"; sourceTree = "<group>"; };
+		C74917FE19643A42007F2124 /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
+		C74917FF19643A42007F2124 /* wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wine.png; sourceTree = "<group>"; };
+		C749180019643A42007F2124 /* wine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wine@2x.png"; sourceTree = "<group>"; };
+		C749180C19643A6A007F2124 /* time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time@2x.png"; sourceTree = "<group>"; };
+		C749180E19644270007F2124 /* CCCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCameraView.m; sourceTree = "<group>"; };
+		C749181019644289007F2124 /* CHCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCameraViewController.swift; sourceTree = "<group>"; };
+		C7491812196442BC007F2124 /* CCCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCameraView.h; sourceTree = "<group>"; };
+		C749181319644323007F2124 /* CCCameraViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCameraViewDelegate.h; sourceTree = "<group>"; };
 		C76AB7C8195C8464000320B3 /* CHStarGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHStarGraph.swift; sourceTree = "<group>"; };
 		C770C6B1194EDE0200CC3E1A /* CHAddWineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHAddWineViewController.swift; sourceTree = "<group>"; };
 		C770C6B3194F275900CC3E1A /* CHHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHHomeViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +87,13 @@
 		C7761B761948E63000FC5398 /* sarrins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sarrins.png; sourceTree = "<group>"; };
 		C77CCFF5195D68CC00C7DCFD /* CHAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHAlertViewController.swift; sourceTree = "<group>"; };
 		C77CCFF7195D6D7A00C7DCFD /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		C7A51FF11960D0F6008154A8 /* icon_cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cart.png; sourceTree = "<group>"; };
+		C7A51FF21960D0F6008154A8 /* icon_cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cart@2x.png"; sourceTree = "<group>"; };
+		C7A51FF91960D1C1008154A8 /* icon_alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_alert.png; sourceTree = "<group>"; };
+		C7A51FFA1960D1C1008154A8 /* icon_alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_alert@2x.png"; sourceTree = "<group>"; };
+		C7A51FFE1961BC4A008154A8 /* CHColorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHColorButton.swift; sourceTree = "<group>"; };
+		C7A5200019631315008154A8 /* CHConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHConstants.swift; sourceTree = "<group>"; };
+		C7A5200219632F5E008154A8 /* CHMetricViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHMetricViewController.swift; sourceTree = "<group>"; };
 		C7BACE171948BD8D0047FF8B /* CellarHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellarHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BACE1B1948BD8D0047FF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7BACE1C1948BD8D0047FF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,12 +104,8 @@
 		C7BACE2D1948BD8E0047FF8B /* CellarHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellarHackTests.swift; sourceTree = "<group>"; };
 		C7BACE391948BE200047FF8B /* CHDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHDetailViewController.swift; sourceTree = "<group>"; };
 		C7BACE401948C5870047FF8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		C7BAF1D7194F318000B152FA /* icon_alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_alert.png; sourceTree = "<group>"; };
-		C7BAF1D8194F318000B152FA /* icon_alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_alert@2x.png"; sourceTree = "<group>"; };
 		C7BAF1DB194F319600B152FA /* icon_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_camera.png; sourceTree = "<group>"; };
 		C7BAF1DC194F319600B152FA /* icon_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_camera@2x.png"; sourceTree = "<group>"; };
-		C7BAF1DF194F319D00B152FA /* icon_cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_cart.png; sourceTree = "<group>"; };
-		C7BAF1E0194F319D00B152FA /* icon_cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cart@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +135,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C749181419644327007F2124 /* camera view */ = {
+			isa = PBXGroup;
+			children = (
+				C749181319644323007F2124 /* CCCameraViewDelegate.h */,
+				C7491812196442BC007F2124 /* CCCameraView.h */,
+				C749180E19644270007F2124 /* CCCameraView.m */,
+			);
+			name = "camera view";
+			sourceTree = "<group>";
+		};
 		C76AB7C6195C8448000320B3 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				C749181419644327007F2124 /* camera view */,
+				C7A51FFD1961BC32008154A8 /* widgets */,
 				C76AB7C7195C844C000320B3 /* start graph */,
 			);
 			name = utils;
@@ -124,6 +178,14 @@
 				C7761B761948E63000FC5398 /* sarrins.png */,
 			);
 			name = "test data";
+			sourceTree = "<group>";
+		};
+		C7A51FFD1961BC32008154A8 /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+				C7A51FFE1961BC4A008154A8 /* CHColorButton.swift */,
+			);
+			name = widgets;
 			sourceTree = "<group>";
 		};
 		C7BACE0E1948BD8D0047FF8B = {
@@ -166,6 +228,7 @@
 				C7BACE1B1948BD8D0047FF8B /* Info.plist */,
 				C7BACE411948C5870047FF8B /* Localizable.strings */,
 				C77CCFF7195D6D7A00C7DCFD /* bridge.h */,
+				C7A5200019631315008154A8 /* CHConstants.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -195,6 +258,9 @@
 				C770C6B1194EDE0200CC3E1A /* CHAddWineViewController.swift */,
 				C770C6B3194F275900CC3E1A /* CHHomeViewController.swift */,
 				C77CCFF5195D68CC00C7DCFD /* CHAlertViewController.swift */,
+				C7A5200219632F5E008154A8 /* CHMetricViewController.swift */,
+				C74917F419641023007F2124 /* CHCellarContentViewController.swift */,
+				C749181019644289007F2124 /* CHCameraViewController.swift */,
 			);
 			name = "view controllers";
 			sourceTree = "<group>";
@@ -202,12 +268,26 @@
 		C7BAF1D6194F316800B152FA /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				C7BAF1DF194F319D00B152FA /* icon_cart.png */,
-				C7BAF1E0194F319D00B152FA /* icon_cart@2x.png */,
+				C74917F619643A42007F2124 /* buy.png */,
+				C74917F719643A42007F2124 /* buy@2x.png */,
+				C74917F01963FAA4007F2124 /* default_bottle.jpg */,
+				C74917F11963FAA4007F2124 /* default_bottle@2x.jpg */,
+				C74917F819643A42007F2124 /* door.png */,
+				C74917F919643A42007F2124 /* door@2x.png */,
+				C7A51FF91960D1C1008154A8 /* icon_alert.png */,
+				C7A51FFA1960D1C1008154A8 /* icon_alert@2x.png */,
 				C7BAF1DB194F319600B152FA /* icon_camera.png */,
 				C7BAF1DC194F319600B152FA /* icon_camera@2x.png */,
-				C7BAF1D7194F318000B152FA /* icon_alert.png */,
-				C7BAF1D8194F318000B152FA /* icon_alert@2x.png */,
+				C7A51FF11960D0F6008154A8 /* icon_cart.png */,
+				C7A51FF21960D0F6008154A8 /* icon_cart@2x.png */,
+				C74917FA19643A42007F2124 /* light.png */,
+				C74917FB19643A42007F2124 /* light@2x.png */,
+				C74917FC19643A42007F2124 /* temp.png */,
+				C74917FD19643A42007F2124 /* temp@2x.png */,
+				C74917FE19643A42007F2124 /* time.png */,
+				C749180C19643A6A007F2124 /* time@2x.png */,
+				C74917FF19643A42007F2124 /* wine.png */,
+				C749180019643A42007F2124 /* wine@2x.png */,
 			);
 			name = assets;
 			sourceTree = "<group>";
@@ -293,15 +373,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7BAF1E2194F319D00B152FA /* icon_cart@2x.png in Resources */,
+				C7A51FF41960D0F6008154A8 /* icon_cart@2x.png in Resources */,
+				C749180819643A42007F2124 /* temp@2x.png in Resources */,
+				C74917F31963FAA4007F2124 /* default_bottle@2x.jpg in Resources */,
+				C749180219643A42007F2124 /* buy@2x.png in Resources */,
+				C7A51FFB1960D1C1008154A8 /* icon_alert.png in Resources */,
+				C749180B19643A42007F2124 /* wine@2x.png in Resources */,
+				C749180519643A42007F2124 /* light.png in Resources */,
+				C749180D19643A6B007F2124 /* time@2x.png in Resources */,
+				C749180919643A42007F2124 /* time.png in Resources */,
 				C7761B771948E63000FC5398 /* sarrins.png in Resources */,
-				C7BAF1D9194F318000B152FA /* icon_alert.png in Resources */,
-				C7BAF1E1194F319D00B152FA /* icon_cart.png in Resources */,
+				C749180319643A42007F2124 /* door.png in Resources */,
+				C74917F21963FAA4007F2124 /* default_bottle.jpg in Resources */,
+				C7A51FF31960D0F6008154A8 /* icon_cart.png in Resources */,
+				C749180419643A42007F2124 /* door@2x.png in Resources */,
+				C749180119643A42007F2124 /* buy.png in Resources */,
+				C749180719643A42007F2124 /* temp.png in Resources */,
+				C7A51FFC1960D1C1008154A8 /* icon_alert@2x.png in Resources */,
 				C7BAF1DE194F319600B152FA /* icon_camera@2x.png in Resources */,
 				C7BACE221948BD8D0047FF8B /* Images.xcassets in Resources */,
 				C7BACE3F1948C5870047FF8B /* Localizable.strings in Resources */,
-				C7BAF1DA194F318000B152FA /* icon_alert@2x.png in Resources */,
 				C7BAF1DD194F319600B152FA /* icon_camera.png in Resources */,
+				C749180619643A42007F2124 /* light@2x.png in Resources */,
+				C749180A19643A42007F2124 /* wine.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,13 +446,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A5200119631315008154A8 /* CHConstants.swift in Sources */,
 				C77CCFF6195D68CC00C7DCFD /* CHAlertViewController.swift in Sources */,
 				C7BACE3A1948BE200047FF8B /* CHDetailViewController.swift in Sources */,
+				C7A51FFF1961BC4A008154A8 /* CHColorButton.swift in Sources */,
 				C7761B6F1948C98B00FC5398 /* CHSleepViewController.swift in Sources */,
 				C76AB7C9195C8464000320B3 /* CHStarGraph.swift in Sources */,
+				C74917F519641023007F2124 /* CHCellarContentViewController.swift in Sources */,
+				C749180F19644270007F2124 /* CCCameraView.m in Sources */,
 				C770C6B4194F275900CC3E1A /* CHHomeViewController.swift in Sources */,
 				C770C6B2194EDE0200CC3E1A /* CHAddWineViewController.swift in Sources */,
+				C7A5200319632F5E008154A8 /* CHMetricViewController.swift in Sources */,
 				C7BACE1D1948BD8D0047FF8B /* AppDelegate.swift in Sources */,
+				C749181119644289007F2124 /* CHCameraViewController.swift in Sources */,
 				C7BACE201948BD8D0047FF8B /* CellarHack.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +580,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: constantin Poupinelle (T9M324KMZD)";
 				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/stant/Documents/TestSwiftLib,
+				);
 				INFOPLIST_FILE = CellarHack/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -498,6 +602,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: constantin Poupinelle (T9M324KMZD)";
 				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/stant/Documents/TestSwiftLib,
+				);
 				INFOPLIST_FILE = CellarHack/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

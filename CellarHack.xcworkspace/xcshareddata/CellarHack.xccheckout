@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EE45BBDD-8DC6-4090-A6B8-A299165D9437</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CellarHack</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4F85DCF7-F0B2-4704-8B38-5648439696FB</key>
+		<string>https://github.com/CellarHack/ios-application.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CellarHack.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4F85DCF7-F0B2-4704-8B38-5648439696FB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CellarHack/ios-application.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4F85DCF7-F0B2-4704-8B38-5648439696FB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4F85DCF7-F0B2-4704-8B38-5648439696FB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CellarHack</string>
+		</dict>
+	</array>
+</dict>
+</plist>

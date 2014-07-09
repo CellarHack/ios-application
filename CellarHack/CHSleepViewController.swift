@@ -13,7 +13,7 @@ import UIKit
 * View delegate protocol
 */
 
-@class_protocol protocol CHSleepViewDelegate {
+@objc protocol CHSleepViewDelegate {
     
     func viewPressed()
     
@@ -26,11 +26,11 @@ import UIKit
 
 class CHSleepView : UIView {
     
-    weak var delegate: CHSleepViewDelegate?
+    weak var delegate: CHSleepViewDelegate!
     
     init() {
         super.init(frame: UIScreen.mainScreen().bounds)
-        self.backgroundColor = UIColor.blackColor()
+        self.backgroundColor = UIColor(hexString: "#ecf0f1", alpha: 1)
         
         self.setupLabel()
         self.setupGesture()
@@ -73,7 +73,7 @@ extension CHSleepView {
     
     func tapGesture(tapGesture: UITapGestureRecognizer) {
         
-        self.delegate?.viewPressed()
+        self.delegate.viewPressed()
         
     }
     
@@ -87,6 +87,8 @@ extension CHSleepView {
 class CHSleepViewController: UIViewController {
     
     override func loadView() {
+        self.automaticallyAdjustsScrollViewInsets = false
+        
         let view = CHSleepView()
         view.delegate = self
         self.view = view
